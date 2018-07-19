@@ -24,6 +24,12 @@
 
 在微信小程序中有app.js,app.json,app.wxss分别是脚本文件，配置文件，样式文件。在脚本文件中我们能监听并处理小程序的生命周期函数，声明全局变量。在学习小程序之前你要掌握初步的html+css+javascript的基础知识。小程序起步到现在，越来越多的开发人员为其开发框架以及插件。
 
+《HTML教程》 
+《HTML 参考手册》 
+《CSS教程》 
+《CSS参考手册》 
+《javascript教程》 
+
 ```
 //app.js
 App({
@@ -263,6 +269,12 @@ onUnload:function(){
 
 > wx.reLaunch(OBJECT)：说明关闭所有页面，打开到应用内的某个页面。
 
+## 推荐
+
+[微信小程序开发资源精选网址导航](http://www.yimijili.com/xcxwzdh.html)
+[微信小程序wepy框架开发资源汇总](https://github.com/aben1188/awesome-wepy)
+[微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
+
 ## 组件
 
 - [weui-wxss ★5000+](https://github.com/Tencent/weui-wxss) - 同微信原生视觉体验一致的基础样式库
@@ -362,7 +374,7 @@ onUnload:function(){
 - [yaoshanliang/weapp-jump](https://github.com/yaoshanliang/weapp-jump) - 跳一跳
 - [nanwangjkl/sliding_puzzle](https://github.com/nanwangjkl/sliding_puzzle) - 滑块拼图
 - [yaoshanliang/weapp-monument-valley](https://github.com/yaoshanliang/weapp-monument-valley) - 纪念碑谷
-- kaiwu/weui-scalajs](https://github.com/kaiwu/weui-scalajs) - 使用Scala.js开发
+- [kaiwu/weui-scalajs](https://github.com/kaiwu/weui-scalajs) - 使用Scala.js开发
 - [tinajs/tina-hackernews](https://github.com/tinajs/tina-hackernews) - Hacker News 热点
 - [mohuishou/scuplus-wechat](https://github.com/mohuishou/scuplus-wechat) - We 川大
 - [hankzhuo/wx-v2ex](https://github.com/hankzhuo/wx-v2ex) - v2ex
@@ -370,6 +382,273 @@ onUnload:function(){
 - [w1109790800/We-Todo](https://github.com/w1109790800/We-Todo) - 基于LeanCloud的Todo-List
 - [jae-jae/weapp-github-trending](https://github.com/jae-jae/weapp-github-trending) - Github今日榜单
 - [steedos/mini-vip](https://github.com/steedos/mini-vip) - 华炎微站、微商城
+
+## 从搭建一个微信小程序开始
+
+```
+视图容器：视图、滚动视图、Swiper
+基础内容：图标、文本、进度条
+表单组件：按钮、表单
+操作反馈
+导航
+媒体组件：音频、图片、视频。
+地图
+画布
+```
+
+```
+网络：上传下载、WebSocket
+数据：数据缓存
+位置：获取位置、查看位置
+设备：网络状态、系统信息、重力感应、罗盘
+界面：设置导航条、导航、动画、 绘图等等
+开放接口：登录，包括签名加密，用户信息、 微信支付、模板消息
+```
+
+## 用完即走，无需安装和卸载
+
+> 项目分为视图层和逻辑层
+
+```
+<view> {{name}} </view>
+<button bindtap="changeName"> Click </button>
+```
+
+```
+Page({
+ data:{
+  name: '我最帅'
+ },
+ changName: function(e){
+  this.setData({
+    name: '我最帅了'
+  })
+ }
+})
+```
+
+## MINA 框架文件结构
+
+MINA程序主体 app.js app.json app.wxss
+页面 wxml wxss json js
+
+#### app.json
+
+> pages(必须) window tabBar networkTimeout debug
+
+## 参考文档
+
+window
+- navigationBarBackgroundColor---背景颜色
+- navigationBarTextStyle---标题颜色
+- navigationBarTitleText---文字内容
+- backgroundColor---背景色
+- backgroundTextStyle---仅支持 dark/light
+- enablePullDownRefresh---是否开启下拉刷新
+- onReachBottomDistanc---页面上拉触底事件触发时距页面底部距离
+
+tabBar
+- position为top时，不会显示icon
+- 只能最少2个、最多5个
+
+```
+color --- 文字颜色
+selectedColor --- 中时的颜色
+backgroundColor --- 背景色
+borderStyle --- 边框的颜色， 仅支持 black/white
+list --- 只能最少2个、最多5个
+position --- ottom、top
+
+//list
+**81px * 81px**
+iconPath --- 图片路径
+selectedIconPath --- 选中时的图片路径
+text --- 文字
+pagePath --- 页面路径
+```
+
+networkTimeout
+```
+wx.request
+wx.connectSocket
+wx.uploadFile
+wx.downloadFile
+```
+
+debug
+```
+略
+```
+
+page.json
+```
+//页面的.json只能设置window相关配置项
+navigationBarBackgroundColor ---  背景颜色
+navigationBarTextStyle --- 标题颜色
+navigationBarTitleText --- 标题文字
+backgroundColor --- 背景颜色
+backgroundTextStyle --- 下拉 仅支持 dark/light
+enablePullDownRefresh --- 是否开启下拉刷新
+disableScroll --- 设置为true 整体不能上下滚动
+```
+
+## App Service
+
+注册程序App()函数 --- object参数
+
+## APP
+
+```
+APP({
+  onLaunch: function(options) { 
+    
+  },
+  onShow: function(options) {
+      
+  },
+  onHide: function() {
+     
+  },
+  onError: function(msg) {
+    
+  },
+})
+```
+
+```
+path
+query
+scene
+shareTicket
+referrerInfo
+referrerInfo.appId
+referrerInfo.extraData
+
+1020 列表
+1035 菜单
+1036 消息卡片
+1037 小程序打开小程序
+1038 从另外一个小程序返回
+1043 模板消息
+```
+
+onPageNotFound
+
+```
+App({
+  onPageNotFound(res) {
+    wx.redirectTo({
+      url: 'pages/...'
+    })
+  }
+})
+```
+
+#### getApp()
+
+#### 注册页面Page --- object 参数
+
+```
+data 
+onLoad
+onReady
+onShow
+onHide
+onUnload
+onPullDownRefresh
+onReachBottom
+onShareAppMessage
+onPageScroll
+```
+
+```
+//index.js
+Page({
+  data: {
+    text: ""
+  },
+  onLoad: function(options) {
+    
+  },
+  onReady: function() {
+    
+  },
+  onShow: function() {
+    
+  },
+  onHide: function() {
+    
+  },
+  onUnload: function() {
+    
+  },
+  onPullDownRefresh: function() {
+   
+  },
+  onReachBottom: function() {
+    
+  },
+  onShareAppMessage: function () {
+   
+  },
+  onPageScroll: function() {
+    
+  },
+ 
+  click: function() {
+    this.setData({
+      text: ''
+    })
+  },
+  
+})
+```
+
+```
+<view>{{array[0].msg}}</view>
+Page({
+ array: [{msg: '0'},{msg: '1'}]
+})
+```
+
+```
+onLoad --- 页面加载
+onShow --- 页面显示
+onReady --- 页面初次渲染
+onHide --- 页面隐藏
+onUnload --- 页面卸载
+```
+
+```
+onPullDownRefresh: 下拉刷新
+onReachBottom: 上拉触底
+onPageScroll: 页面滚动
+onShareAppMessage: 用户转发
+```
+
+#### 事件处理函数
+
+```
+<view bindtap = "click"> click </view>
+Page({
+ click: function(){
+  console.log('我最帅')
+ }
+})
+```
+
+> Page.prototype.route 获取到当前页面的路径。
+
+> Page.prototype.setData() 将数据从逻辑层发送到视图,同时改变对应的 this.data 的值。
+
+> setData() 参数格式
+
+
+
+
+
+
+
 
 
 
