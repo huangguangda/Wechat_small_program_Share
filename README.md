@@ -643,6 +643,108 @@ Page({
 
 > setData() 参数格式
 
+```
+以 key，value 的形式
+```
+
+```
+<view>{{text}}</view>
+this.setData({
+      text: '我最帅'
+    })
+    
+this.setData({
+      number: this.data.number
+    })
+```
+
+#### 页面路由
+
+getCurrentPages()
+
+```
+onLoad, onSHow
+```
+
+module.exports 对外暴露接口
+
+module.exports.sayHello = sayHello
+
+require(path)将公共代码引入
+
+var com = require('com.js')
+
+INA的视图层由WXML与WXSS编写。
+
+```
+<view>{{object.key}} {{array[0]}}</view>
+Page({
+  data: {
+    object: {
+      key: 'Hello '
+    },
+    array: ['我最帅']
+  }
+})
+
+<view wx:for-items="{{[zero, 1, 2, 3, 4]}}"> {{item}} </view>
+Page({
+  data: {
+    zero: 0
+  }
+})
+
+<template is="objectCom" data="{{for: a, bar: b}}"></template>
+Page({
+  data: {
+    a: 1,
+    b: 2
+  }
+})
+
+data="{{...obj1, ...obj2, e: 5}}"
+Page({
+  data: {
+    obj1: {
+      a: 1,
+      b: 2
+    },
+    obj2: {
+      c: 3,
+      d: 4
+    }
+  }
+})
+
+data="{{foo, bar}}"
+Page({
+  data: {
+    foo: 'my-foo',
+    bar: 'my-bar'
+  }
+})
+```
+
+wx:for index item
+```
+<view wx:for="{{array}}">
+  {{index}}: {{item.message}}
+</view>
+
+Page({
+  data: {
+  
+    array: [{
+      message: 'foo',
+    }, {
+      message: 'bar'
+    }]
+    
+  }
+})
+```
+
+
 
 
 
