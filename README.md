@@ -292,7 +292,7 @@ onUnload:function(){
 - [wepy-com-charts](https://github.com/CalvinHong/wepy-com-charts) - 微信小程序 wepy 图表控件
 - [wxapp-lock](https://github.com/demi520/wxapp-lock) - 微信小程序手势解锁
 - [weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io) - socket.io 风格的 websocket 类库
-- weapp-polyfill](https://github.com/leancloud/weapp-polyfill) - [w3c 标准 API polyfill
+- [weapp-polyfill](https://github.com/leancloud/weapp-polyfill) - [w3c 标准 API polyfill
 - [wxPromise](https://github.com/youngjuning/wxPromise) - 微信小程序 Promise 库
 - [wxMD5](https://github.com/youngjuning/wxMD5) - 微信小程序 MD5 库
 - [wxBase64](https://github.com/youngjuning/wxBase64) -  微信小程序base64 库
@@ -302,6 +302,74 @@ onUnload:function(){
 - [minapp-slider-left](https://github.com/bigmeow/minapp-slider-left) - 微信小程序左划删除组件
 - [mp_canvas_drawer](https://github.com/kuckboy1994/mp_canvas_drawer) - canvas绘制图片助手，一个json就制作分享朋友圈图片
 
+## Demo
+
+- [EastWorld/wechat-app-mall ★3000+](https://github.com/EastWorld/wechat-app-mall) - 微信小程序商城
+- [tumobi/nideshop-mini-program ★2000+](https://github.com/tumobi/nideshop-mini-program) - 基于 Node.js + MySQL 开发的开源微信小程序商城
+- [RebeccaHanjw/weapp-wechat-zhihu ★800+](https://github.com/RebeccaHanjw/weapp-wechat-zhihu) - 仿知乎
+- [lypeer/wechat-weapp-gank ★600+)](https://github.com/lypeer/wechat-weapp-gank) - Gank 客户端
+- [wangmingjob/weapp-weipiao ★300+](https://github.com/wangmingjob/weapp-weipiao) - 微票
+- [charleyw/wechat-weapp-redux ★300+](https://github.com/charleyw/wechat-weapp-redux) - Redux 绑定库
+- [jectychen/wechat-v2ex ★300+)](https://github.com/jectychen/wechat-v2ex) - V2EX
+- [18380435477/WeApp ★300+](https://github.com/18380435477/WeApp) - 仿微信
+- [zce/weapp-boilerplate ★300+](https://github.com/zce/weapp-boilerplate) - 微信小程序快速开发骨架
+- [bayetech/wechat_mall_applet ★300+](https://github.com/bayetech/wechat_mall_applet) - 电商平台
+- [lanshan-studio/wecqupt ★300+](https://github.com/lanshan-studio/wecqupt) - We 重邮
+- [myronliu347/wechat-app-zhihudaily ★200+](https://github.com/myronliu347/wechat-app-zhihudaily) - 知乎日报
+- [harveyqing/BearDiary ★200+](https://github.com/harveyqing/BearDiary) - 小熊の日记
+- [leancloud/leantodo-weapp ★200+](https://github.com/leancloud/leantodo-weapp) - 集成 LeanCloud 实现的 Todo list
+- [SuperKieran/weapp-artand ★200+](https://github.com/SuperKieran/weapp-artand) - Artand
+- [dongweiming/weapp-zhihulive ★200+](https://github.com/dongweiming/weapp-zhihulive) - 知乎 Live
+- [eyasliu/wechat-app-music ★200+](https://github.com/eyasliu/wechat-app-music) - 音乐播放器
+- [ahonn/weapp-one ★200+](https://github.com/ahonn/weapp-one) - 仿 ONE
+- [giscafer/wechat-weapp-mapdemo ★200+](https://github.com/giscafer/wechat-weapp-mapdemo) - 地图导航、marker标注 （不再维护）
+- [hilongjw/weapp-gold ★100+](https://github.com/hilongjw/weapp-gold) - 掘金主页信息流
+- [zce/weapp-douban ★100+](https://github.com/zce/weapp-douban) - 豆瓣电影
+- [hingsir/weapp-douban-film ★100+](https://github.com/hingsir/weapp-douban-film) - 豆瓣电影
+- [kunkun12/weapp](https://github.com/kunkun12/weapp) - 小程序 hello world 尝鲜
+- [natee/wxapp-2048 ★100+](https://github.com/natee/wxapp-2048) - 2048 小游戏
+- [SeptemberMaples/wechat-weapp-demo ★100+](https://github.com/SeptemberMaples/wechat-weapp-demo) - 购物车
+- [hijiangtao/weapp-newsapp](https://github.com/hijiangtao/weapp-newsapp) - 公众号热门文章信息流
+- [charleyw/wechat-weapp-redux-todos ★100+](https://github.com/charleyw/wechat-weapp-redux-todos) - 集成 Redux 实现的Todo list
+- [kraaas/timer ★100+](https://github.com/kraaas/timer) - 番茄时钟
+- [ericzyh/wechat-chat ★100+](https://github.com/ericzyh/wechat-chat) - 聊天室
+- [BelinChung/wxapp-hiapp ★100+](https://github.com/BelinChung/wxapp-hiapp) - HiApp
+- [hardog/wechat-app-flexlayout ★100+](https://github.com/hardog/wechat-app-flexlayout) - flexlayout
+- [dunizb/wxapp-sCalc ★100+](https://github.com/dunizb/wxapp-sCalc) - 简易计算器
+- [litt1e-p/weapp-girls ★100+](https://github.com/litt1e-p/weapp-girls) - 豆瓣美女/妹子图
+- [liumulin614/BeautifulGirl](https://github.com/liumulin614/BeautifulGirl) - 美女模特
+- [romoo/weapp-demo-breadtrip ★100+](https://github.com/romoo/weapp-demo-breadtrip) - 面包旅行
+- [zhuweiyou/fetop100 ★100+](https://github.com/zhuweiyou/fetop100) - 前端TOP100
+- [vace/wechatapp-news-reader ★100+](https://github.com/vace/wechatapp-news-reader) - 新闻阅读器
+- [Symous/WechatApp-BaisiSister](https://github.com/Symous/WechatApp-BaisiSister) - 百思不得姐
+- [DengKe1994/weapp-calculator](https://github.com/DengKe1994/weapp-calculator) - IOS 计算器
+- [monkindey/wx-github](https://github.com/monkindey/wx-github) - GitHub 简历
+- [fluency03/weapp-500px](https://github.com/fluency03/weapp-500px) - 国外摄影社区 500px
+- [weapp-film](https://github.com/luuman/weapp-film) - 淘票票
+- [xujinyang/CoderCalendar-WeApp](https://github.com/xujinyang/CoderCalendar-WeApp) - 程序员老黄历
+- [zhengxiaowai/weapp-github](https://github.com/zhengxiaowai/weapp-github) - github
+- [Seahub/PigRaising](https://github.com/SeaHub/PigRaising) - PigRaising
+- [brucevanfdm/WeChatMeiZhi](https://github.com/brucevanfdm/WeChatMeiZhi) - 妹子图
+- [zhijieeeeee/wechat-app-joke](https://github.com/zhijieeeeee/wechat-app-joke) - 开心一刻
+- [uniquexiaobai/wechat-app-githubfeed](https://github.com/uniquexiaobai/wechat-app-githubfeed) - GitHubFeed
+- [zce/weapp-todos](https://github.com/zce/weapp-todos) - TODOS 任务清单
+- [yaoshanliang/weapp-ssha](https://github.com/yaoshanliang/weapp-ssha) - 企业宣传小程序
+- [bruintong/wechat-webapp-douban-movie](https://github.com/bruintong/wechat-webapp-douban-movie) - 豆瓣电影
+- [bruintong/wechat-webapp-douban-location](https://github.com/bruintong/wechat-webapp-douban-location) - 豆瓣同城
+- [arkilis/weapp-jandan](https://github.com/arkilis/weapp-jandan) - 煎蛋
+- [bodekjan/wechat-weather](https://github.com/bodekjan/wechat-weather) - 微信天气
+- [jasscia/ChristmasHat](https://github.com/jasscia/ChristmasHat) - 我要圣诞帽
+- [yaoshanliang/weapp-jump](https://github.com/yaoshanliang/weapp-jump) - 跳一跳
+- [nanwangjkl/sliding_puzzle](https://github.com/nanwangjkl/sliding_puzzle) - 滑块拼图
+- [yaoshanliang/weapp-monument-valley](https://github.com/yaoshanliang/weapp-monument-valley) - 纪念碑谷
+- kaiwu/weui-scalajs](https://github.com/kaiwu/weui-scalajs) - 使用Scala.js开发
+- [tinajs/tina-hackernews](https://github.com/tinajs/tina-hackernews) - Hacker News 热点
+- [mohuishou/scuplus-wechat](https://github.com/mohuishou/scuplus-wechat) - We 川大
+- [hankzhuo/wx-v2ex](https://github.com/hankzhuo/wx-v2ex) - v2ex
+- [Hongye567/weapp-mark](https://github.com/Hongye567/weapp-mark) - 仿 Mark 影单的微信小程序
+- [w1109790800/We-Todo](https://github.com/w1109790800/We-Todo) - 基于LeanCloud的Todo-List
+- [jae-jae/weapp-github-trending](https://github.com/jae-jae/weapp-github-trending) - Github今日榜单
+- [steedos/mini-vip](https://github.com/steedos/mini-vip) - 华炎微站、微商城
 
 
 
