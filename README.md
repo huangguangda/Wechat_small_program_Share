@@ -1008,17 +1008,120 @@ cover-image
 
 ## 项目
 
+## 手机跨平台开发技术概述
 
+1. 移动平台技术格局
+2. 移动跨平台开发技术及其特点
+3. Javascript语言及其最新发展
 
+移动平台的先驱们
+- WebOS (HP)
+- Symbian (Nokia) 
+- BlackBerry (RIM)
+- Meego (Intel)
+- Bada(Samsung)
+- Linux Based (Motorola, Samsung etc)
+- Windows Phone
 
+#### 移动平台的当红小生
+Android（Google)		
+IOS (Apple)  			
+Windows Phone (Microsoft)		
 
+苹果重新定义的智能手机。
+手机
+平板电脑
+电视
+手表
+智能汽车
 
+#### 移动跨平台开发技术及其特点
 
+移动互联网的痛
+二分天下的终端格局
+各自为政的应用商店
+疲于奔命的开发者们
+两种开发环境和工具
+两套代码维护
+两套发布系统
+时间、成本、质量
 
+#### 跨平台开发工具
+CPT （cross-platform developer tools）
+作用
+可以使得开发者使用同样的工具在同一组基础代码上创建多个平台的应用
+价值
+开发大众化：降低跨平台开发的技术门槛
+降低沉没成本：一套代码多平台共用
 
+#### 跨平台开发工具功能要求
 
+开发
+- 编程语言、IDE、协作开发、软件资产管理
 
+集成
+- 本地设备API、云计算API，企业应用集成
 
+构建
+- 翻译、转换、编译、打包
+
+发布
+- 托管、应用商店提交、促销
+
+管理
+- 升级、分析、价格策略、用户服务、数据同步
+
+## Javascript语言及其最新发展
+
+- Javascript的成长
+- 1995年5月，Brendan Eich用10天时间写完Javascript，用于Netscape浏览器的页面显示效果
+- 1997年，Netscape公司提交给ECMA协会作为标准，由第39号委员会(TC39)，制定 ECMAScript EMCA-262 ，
+ - - 1997年 ECMAScript 1.0  
+ - - 1998年 ECMAScript 2.0
+ - - 1999年 ECMAScript 3.0（现在的大部分教材都是这版本)
+ - - 2000年 ECMAScript 4.0 (流产，据说是太激进被拒)
+ - - 2009年 ECMAScript 5.0 ES5
+ - - 2015年6月 ES6/ES2015正式通过成为国际标准，以后每年一个新版本,浏览器对ES6支持情况 http://kangax.github.io/compat-table/es6/
+ - - 2016年6月 ES2016,兼容性支持情况  http://kangax.github.io/compat-table/es2016plus/
+2017年6月 ES2017
+
+## 从丑小鸭到白天鹅
+
+Javascript是互联网时代web前端的主力军
+GoogleV8引擎成为javascript发展的加速器
+Node.js的优秀异步性能使javascript成为全栈开发的首选语言。
+自2013年起，javascript连续多年成为github上最活跃的语言，代码贡献量最大，热度最高。
+javascipt被评为TOBIE 2014年度语言
+移动端浏览器竞争以及Html5标准的发布，使得js成为移动跨平台开发的新宠。
+
+## 手机跨平台开发技术Javascript基础
+
+1. 导论
+2. 语法
+3. 标准库
+4. 面向对象编程
+5. 语法专题
+
+#### 概述	
+
+- 什么是javascript语言
+ - 为什么要学javascript
+ - 开发环境
+
+概述	
+
+- 什么是javascript语言
+ - 轻量级的脚本语言
+  -不具备开发操作系统的能力，而是只用来编写控制其他大型应用程序的“脚本”
+ -嵌入式(embeded) 浏览器/服务器（nodejs）
+  - 核心语法不算很多，只能用来做一些数学和逻辑运算
+  - 不提供任何与 I/O（输入/输出）相关的 API
+- 语法
+ - 支持对象模型
+ - 基本语法构造+标准库+宿主环境API
+- 宿主环境API
+ - 浏览器：浏览器操作类、DOM类、Web类
+ - 服务器：操作系统管理、文件系统、网络操作
 
 
 
