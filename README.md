@@ -744,9 +744,269 @@ Page({
 })
 ```
 
+```
+<view wx:for="{{array}}" wx:for-index="index" wx:for-item="item">
+ {{index}}:{{item.message}}
+</view>
 
+wx:for-index
+wx:for-item
 
+九九乘法表
 
+<view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
+  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}} * {{j}} = {{i * j}}
+    </view>
+  </view>
+</view>
+
+包含多节点的结果块:
+<block wx:for="{{[1,2,3]}}">
+ <view> {{index}}: </view>
+ <view> {{item}} </view>
+</block>
+```
+
+wx:key 指定列表中唯一的标识符。
+
+```
+wx:if wx:elif wx:else
+<view wx:if="{{condition}}">  /view>
+<view wx:elif="{{length > 2}}">  </view>
+<view wx:else> </view>
+```
+
+<block/>不是一个组件，是一个包装元素，不会在页面中做任何渲染，只接受控制属性。
+
+template
+
+```
+<template name="name">
+ <view>
+  <text> {{index}}:{{msg}} </text>
+  <text> Time: {{teme}} </text>
+ </view>
+</template>
+
+<template is="name" data="{{...item}}"/>
+Page({
+ data: {
+  index:0;
+  msg: 'this',
+  time: '0'
+ }
+)}
+
+<template name="n">
+ <view> </view>
+</template>
+
+<block wx:for="{{[ ]}}">
+ <template is="{{}}"/>
+</block>
+```
+
+```
+<view id="id" bindtap="bindtap"> </view>
+
+Page({
+ bindtap: function(e){
+  console.log(e)
+ }
+})
+```
+
+#### 事件
+
+冒泡事件和非冒泡事件
+
+事件会向父节点传递 事件不会向父节点传递
+
+#### 冒泡事件
+
+touchstart move cancel end
+
+tap 手指触摸后马上离开 longtap 超过350ms
+
+#### 非冒泡事件
+
+## key、value的形式的事件绑定
+
+key以bind或catch开头，value是一个字符串
+
+bind绑定不会阻止向上冒泡，catch会哦。
+bindtap catchtap 
+
+事件对象 
+
+BaseEvent 础事件 CustomEvent 自定义事件 TouchEvent 触摸事件
+
+#### 引用
+
+> import 和 include
+
+```
+<template name="name">
+</template>
+
+<import src="item.wxml/>
+<template is="item data="{{}}"/>
+
+<!-- index.wxml -->
+<include src="header.wxml"/>
+<view> body </view>
+<include src="footer.wxml"/>
+```
+
+```
+<wxs module="m">
+ var msg="hello";
+ 
+ module.exports.message=msg;
+</wxs>
+
+<view> {{m.message}} </view>
+```
+
+#### WXS 模块
+
+ .wxs 为后缀名的文件
+```
+module.exports 对外暴露
+每个wxs模块均有 module 对象。
+
+exports:对外共享本模块
+module.exports
+module.exports.msg
+<wxs src="./../tools.wxs" module="tools" />
+```
+
+require 函数
+```
+var tools = require("./tools.wxs");
+```
+
+<wxs> 标签
+module  src
+
+#### 数据类型
+
+number ： 数值
+string ：字符串
+boolean：布尔值
+object：对象
+function：函数
+array : 数组
+date：日期
+regexp：正则
+```
+toString
+toLocaleString
+valueOf
+toFixed
+toExponential
+toPrecision
+
+toString
+valueOf
+charAt
+charCodeAt
+concat
+indexOf
+lastIndexOf
+localeCompare
+match
+replace
+search
+slice
+split
+substring
+toLowerCase
+toLocaleLowerCase
+toUpperCase
+toLocaleUpperCase
+trim
+
+toString
+valueOf
+
+toString
+concat
+join
+pop
+push
+reverse
+shift
+slice
+sort
+splice
+unshift
+indexOf
+lastIndexOf
+every
+some
+forEach
+map
+filter
+reduce
+reduceRight
+
+parse(string):
+MAX_VALUE
+MIN_VALUE
+NEGATIVE_INFINITY
+POSITIVE_INFINITY
+```
+
+#### 样式导入
+
+@import语句可以导入
+
+## 视图容器
+
+> view---hover-class,hover-start-time,hover-stay-time
+
+```
+<view class="section">
+<view class="section_title"> flex:direction: row </view>
+<view class="flex-wrp" style="flex-direction:row;">
+<view class="flex-item bc_green"><view>
+</view>
+</view>
+
+<view class="section">
+<view class="section_title"> flex-direction: column</view>
+<view class="flex-wrp" style="flex-direction:column;">
+<view class="flex-item bc_green"></view>
+</view>
+</view>
+```
+
+scroll-view
+
+> scroll-x,scroll-y upper-threshold,lower-threshold,
+
+> scroll-top,scroll-left,scroll-inio-view,scroll-with-animation
+
+> enable-back-to-top,bindscrolltoupper,bindscrolltolower,bindscroll
+
+swiper
+
+> indicator-dots indicator-color indicator-active-color autoplay
+
+> current interval duration circular vertical bindchange
+
+movable-view 的可移动区域
+
+> direction inertia out-of-bounds damping friction
+
+cover-view 覆盖在原生组件之上的文本视图
+
+cover-image
+
+## 项目
 
 
 
