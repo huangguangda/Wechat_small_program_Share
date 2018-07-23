@@ -14,3 +14,7 @@
 编写php后台代码完成酒店预订的模板信息推送功能。
 
 [酒店预订小程序Demo](https://files.cnblogs.com/files/dashucoding/%E9%85%92%E5%BA%97%E9%A2%84%E8%AE%A2%E5%B0%8F%E7%A8%8B%E5%BA%8FDemo.rar)
+
+![效果展示1](4.png)
+
+![效果展示2](5.png)
