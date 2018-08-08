@@ -17,9 +17,9 @@
    
    2：[简易教程：](https://mp.weixin.qq.com/debug/wxadoc/dev/)
    
-   3：[设计指南：](https://mp.weixin.qq.com/debug/wxadoc/design/index.html)；
+   3：[设计指南：](https://mp.weixin.qq.com/debug/wxadoc/design/index.html)
    
-   4：[运营规范：](https://mp.weixin.qq.com/debug/wxadoc/product/index.html)；
+   4：[运营规范：](https://mp.weixin.qq.com/debug/wxadoc/product/index.html)
    
    5：[接入指南：](https://mp.weixin.qq.com/debug/wxadoc/introduction/index.html)
    
