@@ -1980,9 +1980,9 @@ Mustache基础
 {{{}}}:原样输出不转义html代码
 
 ## WXS基础
-WXS(WeiXin Script)微信脚本语言
-貌似ES6的moulde
-可直接使用<wxs>嵌入WXML中
+1. WXS(WeiXin Script)微信脚本语言
+2. 貌似ES6的moulde
+3. 可直接使用<wxs>嵌入WXML中
 
 或单独使用.wxs文件，然后在WXML中引入
 
