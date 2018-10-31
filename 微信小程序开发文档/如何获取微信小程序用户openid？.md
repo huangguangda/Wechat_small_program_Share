@@ -10,4 +10,4 @@
 
 ![结构展示](https://raw.githubusercontent.com/huangguangda/Wechat_small_program_Share/master/1479955923950610.png)
 
-![图片1](https://dn-coding-net-production-file.qbox.me/8909ecd0-8e5a-11e8-b1e3-c1ffc3899690.png?attname=13.png&e=1532341615&token=goE9CtaiT5YaIP6ZQ1nAafd_C1Z_H2gVP8AwuC-5:qHYNL7aCVtTeQT0fWC61aFEeOCQ=)
+![图片1](1479955923950610.png)
