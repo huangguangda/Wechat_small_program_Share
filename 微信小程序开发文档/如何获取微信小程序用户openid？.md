@@ -8,6 +8,4 @@
 
 流程图如下:
 
-![结构展示](https://raw.githubusercontent.com/huangguangda/Wechat_small_program_Share/master/1479955923950610.png)
-
-![图片1](../1479955923950610.png)
+![图片1](../image/1479955923950610.png)
