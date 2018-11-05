@@ -236,7 +236,4 @@ Page({
 生命周期
 下图说明了 Page 实例的生命周期。
 
-![1](../image/mina-lifecycle.png)
-
-
-
+![1](../../image/mina-lifecycle.png)
