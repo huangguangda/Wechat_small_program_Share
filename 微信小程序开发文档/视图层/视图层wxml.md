@@ -7,7 +7,6 @@ WXML(WeiXin Markup language)用于描述页面的结构。
 WXSS(WeiXin Style Sheet)用于描述页面的样式。
 组件(Component)是视图的基本组成单元。
 
-
 WXML
 WXML(WeiXin Markup Language)是框架设计的一套标签语言，结合基础组件、事件系统，可以构建出页面的结构。
 
